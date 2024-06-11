@@ -79,7 +79,6 @@ def regression_loss_function():
         final_loss = math.sqrt(final_loss)
         # print final loss
         print(f'final {loss_name}: {final_loss}')
-    return
 
 
 def main():

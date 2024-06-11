@@ -94,7 +94,7 @@ def approx_cosh(x: float, n: int) -> float:
 
 
 def main():
-    approx_cos(3.140)
+    approx_cos(3.140, 10)
 
 
 if __name__ == "__main__":
