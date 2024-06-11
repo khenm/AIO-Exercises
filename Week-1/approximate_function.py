@@ -1,3 +1,4 @@
+error: str = 'n must be an integer greater than 0'
 def factorial(x: int) -> int:
     """Calculate factorial of given number
 
@@ -24,8 +25,9 @@ def approx_sin(x: float, n: int) -> float:
         float: sin(x)
     """
     # input condition
+    
     if n <= 0:
-        print('n must be an integer greater than 0')
+        print(error)
         return 0
     result: float = 0
     for i in range(n):
@@ -45,7 +47,7 @@ def approx_cos(x: float, n: int) -> float:
     """
     # input condition
     if n <= 0:
-        print('n must be an integer greater than 0')
+        print(error)
         return 0
     result: float = 0
     for i in range(n):
@@ -65,7 +67,7 @@ def approx_sinh(x: float, n: int) -> float:
     """
     # input condition
     if n <= 0:
-        print('n must be an integer greater than 0')
+        print(error)
         return 0
     result: float = 0
     for i in range(n):
@@ -85,7 +87,7 @@ def approx_cosh(x: float, n: int) -> float:
     """
     # input condition
     if n <= 0:
-        print('n must be an integer greater than 0')
+        print(error)
         return 0
     result: float = 0
     for i in range(n):
