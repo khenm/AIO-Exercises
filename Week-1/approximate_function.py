@@ -92,8 +92,10 @@ def approx_cosh(x: float, n: int) -> float:
         result += ((x ** (2 * i))/factorial(2 * i))
     return result
 
+
 def main():
     approx_cos(3.140)
 
-if __name__== "__main__":
+
+if __name__ == "__main__":
     main()
