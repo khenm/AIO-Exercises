@@ -13,5 +13,10 @@ def MD_nRE(y: float, y_hat: float, n: int, p: int) -> float:
     md_nre_loss: float = (y ** (1 / n) - y_hat ** (1 / n)) ** p
     return md_nre_loss
 
-# example
-MD_nRE(y = 100, y_hat = 99.5, n = 2, p = 1)
+
+def main():
+    MD_nRE(y=100, y_hat=99.5, n=2, p=1)
+
+
+if __name__ == "__main__":
+    main()
