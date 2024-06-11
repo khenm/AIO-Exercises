@@ -51,7 +51,6 @@ def activation_func():
         alpha: float = 0.01  # coefficient alpha
         elu_x: float = alpha * (math.exp(x) - 1) if x <= 0 else x
         print(f'elu: f({x}) = {elu_x}')
-        return
 
 
 def main():
