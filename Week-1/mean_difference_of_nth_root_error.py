@@ -1,4 +1,4 @@
-def MD_nRE(y: float, y_hat: float, n: int, p: int) -> float:
+def md_nre(y: float, y_hat: float, n: int, p: int) -> float:
     """Compute the mean difference of nth Root Error 
 
     Args:
@@ -15,7 +15,7 @@ def MD_nRE(y: float, y_hat: float, n: int, p: int) -> float:
 
 
 def main():
-    MD_nRE(y=100, y_hat=99.5, n=2, p=1)
+    md_nre(y=100, y_hat=99.5, n=2, p=1)
 
 
 if __name__ == "__main__":

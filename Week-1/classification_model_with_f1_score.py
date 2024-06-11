@@ -26,11 +26,9 @@ def calc_f1_score(tp, fp, fn):
     precision: float = tp / (tp + fp)
     recall: float = tp / (tp + fn)
     f1_score: float = 2 * (precision * recall) / (precision + recall)
-    # print result
     print('Precision is ', precision)
     print('Recall is ', recall)
     print('f1-score is ', f1_score)
-    return
 
 
 def main():
